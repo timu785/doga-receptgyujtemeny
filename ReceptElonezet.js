@@ -5,6 +5,7 @@ export class ReceptElonezet{
     #hozzavalok;
     
     #kategoria;
+    
     #receptTarolo;
     #elem;
     constructor(receptObjektum, receptTarolo){
@@ -36,6 +37,7 @@ export class ReceptElonezet{
     eventListenerHozzaAdas(){
         this.#elem.addEventListener("click", function(){
             this.kedvenc = !this.kedvenc;
+            console.log(this.kedvenc);
         });
     }
 
