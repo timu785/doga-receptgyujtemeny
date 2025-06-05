@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+
+html, body{
+    width: 100%;
+    max-width: 100%;
+}
+
+
+#cim-sav{
+    background-color: black;
+    border: 1px solid white;
+    height: 50px;
+}
+#cim-sav>h1{
+    text-align: center;
+}
+
+
+nav{
+    background-color: black;
+    border: 1px solid white;
+    height: 50px;
+}
+nav>button{
+    background-color: black;
+    border: 1px solid white;
+    height: 100%;
+    margin-left: 20px;
+    width: 150px;   
+}
+nav>button:hover{
+    cursor: pointer;
+}
+
+
+#reszletes-megjelenites{
+    background-color: black;
+    border: 1px solid white;
+    height: 250px;
+}
+
+
+#recept-tarolo{
+    background-color: black;
+    border: 1px solid white;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 10px;
+}
+
+
+.recept-kep{
+    width: 300px;
+}
+.recept{
+    border: 1px solid white;
+    width: 300px;
+    height: 400px;
+}
+.recept-nev{
+    text-align: center;
+    border: 1px solid white;
+}
+.recept-kedvenc{
+    text-align: center;
+    border: 1px solid white;
+}
+.recept-kategoria{
+    text-align: center;
+}
