@@ -4,6 +4,10 @@
     padding: 0px;
     color: white;
 }
+button:hover{
+    cursor: pointer;
+}
+
 
 
 html, body{
@@ -34,14 +38,32 @@ nav>button{
     margin-left: 20px;
     width: 150px;   
 }
-nav>button:hover{
-    cursor: pointer;
-}
 
 
 #reszletes-megjelenites{
     background-color: black;
     border: 1px solid white;
+    height: 250px;
+    display: grid;
+    grid-template-columns: 1fr 9fr 1fr;
+}
+#reszletes-megjelenites>button{
+    background-color: black;
+    border: 1px solid white;
+}
+#reszletes-megjelenites-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#reszletes-megjelenites-div>div{
+    background-color: black;
+    border: 1px solid white;
+}
+#reszletes-megjelenites-div-bal-oszlop>*{
+    background-color: black;
+    border: 1px solid white;
+}
+#reszletes-megjelenites-div img{
     height: 250px;
 }
 
@@ -76,3 +98,4 @@ nav>button:hover{
 .recept-kategoria{
     text-align: center;
 }
+
